@@ -1,2 +1,2 @@
 # color-guessing-game
-Deployed app at: colorguessingapp.netlify.app
+Deployed app at: https://colorguessingapp.netlify.app/
