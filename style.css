@@ -1,0 +1,87 @@
+body{
+    background-color: #232323;
+    margin:0px;
+    padding:0px;
+}
+
+.squares{
+    background-color:purple;
+    border-radius: 20%;
+   padding-bottom: 30%;
+    width: 30%;
+    margin: 1.66%;
+    float: right;
+    transition: background-color,0.3s;
+    
+}
+#main-container{
+    max-width: 600px;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#resultDisplay{
+    color:black;
+}
+#stripe{
+    background-color:white;
+    height: 35px;
+}
+h1{
+    text-align: center;
+    margin:0px;
+    padding:10px 0px;
+    color:white;
+    background-color:rgb(70,130,180);
+    font-weight: 100;
+    /* line-height: 3rem; */
+}
+#playAgain{
+    border:none;
+    background-color: white;
+    color: black;
+    font-size: 1.1rem;
+    /* height: 100vh; */
+    transition: all 0.3s;
+}
+#sub-container{
+    width: 55%;
+    height: 35px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#playAgain:hover{
+    background-color: steelblue;
+    color: white;
+   
+}
+.selected{
+    background-color:steelblue;
+    color:white;
+}
+h1 span{
+    font-weight: 500;
+    font-size: 50px;
+}
+button{
+    background-color: none;
+    background-color: white;
+    border:none;
+    outline: none;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+    color: black;
+}
+#resultDisplay{
+    width:20%;
+    font-size: 1.1rem;
+    margin:auto;
+}
+
+@media only screen and (max-width: 660px){
+    #sub-container{
+        width: 100%;
+    }
+}
